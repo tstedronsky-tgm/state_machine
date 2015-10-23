@@ -1,4 +1,5 @@
 "startup/startup_stm32f303xc.o"
+"src/led_toggle.o"
 "src/main.o"
 "src/stm32f3xx_it.o"
 "src/syscalls.o"

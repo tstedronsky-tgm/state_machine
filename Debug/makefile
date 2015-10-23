@@ -30,7 +30,7 @@ endif
 all: state_machine.elf
 
 dependents:
-	-cd E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/Debug && $(MAKE) clean all
+	-cd E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/Debug && $(MAKE) all
 
 # Tool invocations
 state_machine.elf: $(OBJS) $(USER_OBJS) E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/Debug/libstm32f3discovery_hal_lib.a

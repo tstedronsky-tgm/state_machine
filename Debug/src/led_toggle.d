@@ -1,4 +1,4 @@
-src/main.o: ../src/main.c \
+src/led_toggle.o: ../src/led_toggle.c \
  E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/CMSIS/device/stm32f3xx.h \
  E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/CMSIS/device/stm32f303xc.h \
  E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/CMSIS/core/core_cm4.h \
