@@ -3,7 +3,7 @@
 
 #include "led_toggle.h"
 
-
+#include "state_machine.h"
 
 void reset(){
 	BSP_LED_Off(LED_RED);
@@ -33,12 +33,21 @@ void led_green(){
 void led_green_blink(){
 	reset();
 	int i=0;
-	while(i<4){
+	while(i<5){
 		BSP_LED_On(LED_GREEN_2);
 		HAL_Delay(400);
 		BSP_LED_Off(LED_GREEN_2);
 		HAL_Delay(400);
 		i=i+1;
+	}
+}
+void led_orange_blink(){
+	reset();
+	while(1){
+		BSP_LED_On(LED_ORANGE);
+		HAL_Delay(400);
+		BSP_LED_Off(LED_ORANGE);
+		HAL_Delay(400);
 	}
 }
 

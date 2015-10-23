@@ -58,7 +58,7 @@ src/led_toggle.o: ../src/led_toggle.c \
  E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/HAL_Driver/Inc/stm32f3xx_hal_usart_ex.h \
  E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/HAL_Driver/Inc/stm32f3xx_hal_wwdg.h \
  E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/Utilities/STM32F3-Discovery/stm32f3_discovery.h \
- ../src/led_toggle.h
+ ../src/led_toggle.h ../src/state_machine.h
 
 E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/CMSIS/device/stm32f3xx.h:
 
@@ -179,3 +179,5 @@ E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/HAL_Driver/Inc/stm32f3xx_hal_
 E:/TGM/5Klasse/SYT/Weiser/stm32f3discovery_hal_lib/Utilities/STM32F3-Discovery/stm32f3_discovery.h:
 
 ../src/led_toggle.h:
+
+../src/state_machine.h:

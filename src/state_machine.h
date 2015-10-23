@@ -14,11 +14,8 @@
 #include <stdbool.h>
 
 typedef enum {
-	RED,
-	RED_ORANGE,
-	GREEN,
-	GREEN_BLINK,
-	ORANGE_BLINK
+	NIGHT,
+	DAY
 } traffic_state;
 
 #endif /* STATE_MACHINE_H_ */

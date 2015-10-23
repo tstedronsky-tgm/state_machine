@@ -12,6 +12,7 @@ void led_red();
 void led_red_orange();
 void led_green();
 void led_green_blink();
+void led_orange_blink();
 void control_traffic_light();
 void reset();
 #endif /* LED_TOGGLE_H_ */

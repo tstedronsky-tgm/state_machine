@@ -112,9 +112,33 @@ Discarded input sections
  .group         0x00000000        0x8 src/led_toggle.o
  .group         0x00000000        0x8 src/led_toggle.o
  .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
+ .group         0x00000000        0x8 src/led_toggle.o
  .text          0x00000000        0x0 src/led_toggle.o
  .data          0x00000000        0x0 src/led_toggle.o
  .bss           0x00000000        0x0 src/led_toggle.o
+ .text.led_orange_blink
+                0x00000000       0x28 src/led_toggle.o
  .group         0x00000000        0x8 src/main.o
  .group         0x00000000        0x8 src/main.o
  .group         0x00000000        0x8 src/main.o
@@ -2422,27 +2446,27 @@ LOAD e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.
                 0x00000319       0x1e e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/crtn.o
 OUTPUT(state_machine.elf elf32-littlearm)
 
-.debug_line     0x00000000     0x511b
+.debug_line     0x00000000     0x5233
  .debug_line    0x00000000       0x7f startup/startup_stm32f303xc.o
- .debug_line    0x0000007f      0x9bb src/led_toggle.o
- .debug_line    0x00000a3a      0x975 src/main.o
- .debug_line    0x000013af      0x90b src/stm32f3xx_it.o
- .debug_line    0x00001cba      0x8fe src/system_stm32f3xx.o
- .debug_line    0x000025b8      0xb61 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_line    0x00003119      0xa30 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
- .debug_line    0x00003b49      0xb92 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
- .debug_line    0x000046db      0xa40 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+ .debug_line    0x0000007f      0xad3 src/led_toggle.o
+ .debug_line    0x00000b52      0x975 src/main.o
+ .debug_line    0x000014c7      0x90b src/stm32f3xx_it.o
+ .debug_line    0x00001dd2      0x8fe src/system_stm32f3xx.o
+ .debug_line    0x000026d0      0xb61 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_line    0x00003231      0xa30 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+ .debug_line    0x00003c61      0xb92 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+ .debug_line    0x000047f3      0xa40 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
-.debug_info     0x00000000     0x3617
+.debug_info     0x00000000     0x362f
  .debug_info    0x00000000       0x73 startup/startup_stm32f303xc.o
- .debug_info    0x00000073      0x17e src/led_toggle.o
- .debug_info    0x000001f1      0x69e src/main.o
- .debug_info    0x0000088f       0xaf src/stm32f3xx_it.o
- .debug_info    0x0000093e      0x3b7 src/system_stm32f3xx.o
- .debug_info    0x00000cf5     0x1174 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_info    0x00001e69      0x643 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
- .debug_info    0x000024ac      0xb08 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
- .debug_info    0x00002fb4      0x663 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+ .debug_info    0x00000073      0x196 src/led_toggle.o
+ .debug_info    0x00000209      0x69e src/main.o
+ .debug_info    0x000008a7       0xaf src/stm32f3xx_it.o
+ .debug_info    0x00000956      0x3b7 src/system_stm32f3xx.o
+ .debug_info    0x00000d0d     0x1174 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_info    0x00001e81      0x643 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+ .debug_info    0x000024c4      0xb08 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+ .debug_info    0x00002fcc      0x663 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
 .debug_abbrev   0x00000000      0xb40
  .debug_abbrev  0x00000000       0x12 startup/startup_stm32f303xc.o
@@ -2455,126 +2479,148 @@ OUTPUT(state_machine.elf elf32-littlearm)
  .debug_abbrev  0x0000071c      0x280 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
  .debug_abbrev  0x0000099c      0x1a4 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
-.debug_aranges  0x00000000      0x3c0
+.debug_aranges  0x00000000      0x3c8
  .debug_aranges
                 0x00000000       0x28 startup/startup_stm32f303xc.o
  .debug_aranges
-                0x00000028       0x48 src/led_toggle.o
+                0x00000028       0x50 src/led_toggle.o
  .debug_aranges
-                0x00000070       0x30 src/main.o
+                0x00000078       0x30 src/main.o
  .debug_aranges
-                0x000000a0       0x20 src/stm32f3xx_it.o
+                0x000000a8       0x20 src/stm32f3xx_it.o
  .debug_aranges
-                0x000000c0       0x28 src/system_stm32f3xx.o
+                0x000000c8       0x28 src/system_stm32f3xx.o
  .debug_aranges
-                0x000000e8       0xd0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+                0x000000f0       0xd0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
  .debug_aranges
-                0x000001b8       0xb0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+                0x000001c0       0xb0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
  .debug_aranges
-                0x00000268      0x100 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+                0x00000270      0x100 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
  .debug_aranges
-                0x00000368       0x58 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+                0x00000370       0x58 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
-.debug_ranges   0x00000000      0x338
+.debug_ranges   0x00000000      0x340
  .debug_ranges  0x00000000       0x20 startup/startup_stm32f303xc.o
- .debug_ranges  0x00000020       0x38 src/led_toggle.o
- .debug_ranges  0x00000058       0x20 src/main.o
- .debug_ranges  0x00000078       0x10 src/stm32f3xx_it.o
- .debug_ranges  0x00000088       0x18 src/system_stm32f3xx.o
- .debug_ranges  0x000000a0       0xc0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_ranges  0x00000160       0xa0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
- .debug_ranges  0x00000200       0xf0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
- .debug_ranges  0x000002f0       0x48 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+ .debug_ranges  0x00000020       0x40 src/led_toggle.o
+ .debug_ranges  0x00000060       0x20 src/main.o
+ .debug_ranges  0x00000080       0x10 src/stm32f3xx_it.o
+ .debug_ranges  0x00000090       0x18 src/system_stm32f3xx.o
+ .debug_ranges  0x000000a8       0xc0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_ranges  0x00000168       0xa0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+ .debug_ranges  0x00000208       0xf0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+ .debug_ranges  0x000002f8       0x48 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
-.debug_macro    0x00000000    0x1202c
- .debug_macro   0x00000000      0x2e3 src/led_toggle.o
- .debug_macro   0x000002e3      0x892 src/led_toggle.o
- .debug_macro   0x00000b75       0x28 src/led_toggle.o
- .debug_macro   0x00000b9d       0x28 src/led_toggle.o
- .debug_macro   0x00000bc5       0x3b src/led_toggle.o
- .debug_macro   0x00000c00       0x22 src/led_toggle.o
- .debug_macro   0x00000c22       0x44 src/led_toggle.o
- .debug_macro   0x00000c66       0x1c src/led_toggle.o
- .debug_macro   0x00000c82      0x1f7 src/led_toggle.o
- .debug_macro   0x00000e79       0x2d src/led_toggle.o
- .debug_macro   0x00000ea6       0x42 src/led_toggle.o
- .debug_macro   0x00000ee8      0xd39 src/led_toggle.o
- .debug_macro   0x00001c21     0x822c src/led_toggle.o
- .debug_macro   0x00009e4d       0x43 src/led_toggle.o
- .debug_macro   0x00009e90      0x114 src/led_toggle.o
- .debug_macro   0x00009fa4       0x56 src/led_toggle.o
- .debug_macro   0x00009ffa      0x747 src/led_toggle.o
- .debug_macro   0x0000a741      0x574 src/led_toggle.o
- .debug_macro   0x0000acb5      0x138 src/led_toggle.o
- .debug_macro   0x0000aded      0x1f4 src/led_toggle.o
- .debug_macro   0x0000afe1      0x1df src/led_toggle.o
- .debug_macro   0x0000b1c0       0x2a src/led_toggle.o
- .debug_macro   0x0000b1ea       0x52 src/led_toggle.o
- .debug_macro   0x0000b23c      0xa3d src/led_toggle.o
- .debug_macro   0x0000bc79      0x37c src/led_toggle.o
- .debug_macro   0x0000bff5       0x6c src/led_toggle.o
- .debug_macro   0x0000c061      0x316 src/led_toggle.o
- .debug_macro   0x0000c377       0xb9 src/led_toggle.o
- .debug_macro   0x0000c430       0x4c src/led_toggle.o
- .debug_macro   0x0000c47c       0x12 src/led_toggle.o
- .debug_macro   0x0000c48e      0x1aa src/led_toggle.o
- .debug_macro   0x0000c638       0x70 src/led_toggle.o
- .debug_macro   0x0000c6a8      0x1ca src/led_toggle.o
- .debug_macro   0x0000c872      0x135 src/led_toggle.o
- .debug_macro   0x0000c9a7      0x1f4 src/led_toggle.o
- .debug_macro   0x0000cb9b       0x22 src/led_toggle.o
- .debug_macro   0x0000cbbd      0x1a0 src/led_toggle.o
- .debug_macro   0x0000cd5d       0x41 src/led_toggle.o
- .debug_macro   0x0000cd9e      0x1ed src/led_toggle.o
- .debug_macro   0x0000cf8b       0x29 src/led_toggle.o
- .debug_macro   0x0000cfb4       0xbc src/led_toggle.o
- .debug_macro   0x0000d070      0x17d src/led_toggle.o
- .debug_macro   0x0000d1ed       0x28 src/led_toggle.o
- .debug_macro   0x0000d215      0x265 src/led_toggle.o
- .debug_macro   0x0000d47a       0xda src/led_toggle.o
- .debug_macro   0x0000d554       0xbe src/led_toggle.o
- .debug_macro   0x0000d612      0x3c2 src/led_toggle.o
- .debug_macro   0x0000d9d4      0x2e0 src/led_toggle.o
- .debug_macro   0x0000dcb4      0x305 src/led_toggle.o
- .debug_macro   0x0000dfb9       0x11 src/led_toggle.o
- .debug_macro   0x0000dfca      0x2b8 src/led_toggle.o
- .debug_macro   0x0000e282      0x2b8 src/led_toggle.o
- .debug_macro   0x0000e53a      0x6b6 src/led_toggle.o
- .debug_macro   0x0000ebf0      0x383 src/led_toggle.o
- .debug_macro   0x0000ef73      0x46a src/led_toggle.o
- .debug_macro   0x0000f3dd      0x4cc src/led_toggle.o
- .debug_macro   0x0000f8a9       0x3b src/led_toggle.o
- .debug_macro   0x0000f8e4      0x1f4 src/led_toggle.o
- .debug_macro   0x0000fad8       0x2a src/led_toggle.o
- .debug_macro   0x0000fb02       0x87 src/led_toggle.o
- .debug_macro   0x0000fb89      0x27d src/led_toggle.o
- .debug_macro   0x0000fe06      0x29e src/led_toggle.o
- .debug_macro   0x000100a4      0x2e3 src/main.o
- .debug_macro   0x00010387      0x2da src/stm32f3xx_it.o
- .debug_macro   0x00010661      0x2d6 src/system_stm32f3xx.o
- .debug_macro   0x00010937      0x2fd E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_macro   0x00010c34      0x88c E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_macro   0x000114c0      0x298 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_macro   0x00011758      0x2f4 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
- .debug_macro   0x00011a4c      0x2d0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
- .debug_macro   0x00011d1c      0x310 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+.debug_macro    0x00000000    0x12c32
+ .debug_macro   0x00000000      0x405 src/led_toggle.o
+ .debug_macro   0x00000405      0x892 src/led_toggle.o
+ .debug_macro   0x00000c97       0x28 src/led_toggle.o
+ .debug_macro   0x00000cbf       0x28 src/led_toggle.o
+ .debug_macro   0x00000ce7       0x3b src/led_toggle.o
+ .debug_macro   0x00000d22       0x22 src/led_toggle.o
+ .debug_macro   0x00000d44       0x44 src/led_toggle.o
+ .debug_macro   0x00000d88       0x1c src/led_toggle.o
+ .debug_macro   0x00000da4      0x1f7 src/led_toggle.o
+ .debug_macro   0x00000f9b       0x2d src/led_toggle.o
+ .debug_macro   0x00000fc8       0x42 src/led_toggle.o
+ .debug_macro   0x0000100a      0xd39 src/led_toggle.o
+ .debug_macro   0x00001d43     0x822c src/led_toggle.o
+ .debug_macro   0x00009f6f       0x43 src/led_toggle.o
+ .debug_macro   0x00009fb2      0x114 src/led_toggle.o
+ .debug_macro   0x0000a0c6       0x56 src/led_toggle.o
+ .debug_macro   0x0000a11c      0x747 src/led_toggle.o
+ .debug_macro   0x0000a863      0x574 src/led_toggle.o
+ .debug_macro   0x0000add7      0x138 src/led_toggle.o
+ .debug_macro   0x0000af0f      0x1f4 src/led_toggle.o
+ .debug_macro   0x0000b103      0x1df src/led_toggle.o
+ .debug_macro   0x0000b2e2       0x2a src/led_toggle.o
+ .debug_macro   0x0000b30c       0x52 src/led_toggle.o
+ .debug_macro   0x0000b35e      0xa3d src/led_toggle.o
+ .debug_macro   0x0000bd9b      0x37c src/led_toggle.o
+ .debug_macro   0x0000c117       0x6c src/led_toggle.o
+ .debug_macro   0x0000c183      0x316 src/led_toggle.o
+ .debug_macro   0x0000c499       0xb9 src/led_toggle.o
+ .debug_macro   0x0000c552       0x4c src/led_toggle.o
+ .debug_macro   0x0000c59e       0x12 src/led_toggle.o
+ .debug_macro   0x0000c5b0      0x1aa src/led_toggle.o
+ .debug_macro   0x0000c75a       0x70 src/led_toggle.o
+ .debug_macro   0x0000c7ca      0x1ca src/led_toggle.o
+ .debug_macro   0x0000c994      0x135 src/led_toggle.o
+ .debug_macro   0x0000cac9      0x1f4 src/led_toggle.o
+ .debug_macro   0x0000ccbd       0x22 src/led_toggle.o
+ .debug_macro   0x0000ccdf      0x1a0 src/led_toggle.o
+ .debug_macro   0x0000ce7f       0x41 src/led_toggle.o
+ .debug_macro   0x0000cec0      0x1ed src/led_toggle.o
+ .debug_macro   0x0000d0ad       0x29 src/led_toggle.o
+ .debug_macro   0x0000d0d6       0xbc src/led_toggle.o
+ .debug_macro   0x0000d192      0x17d src/led_toggle.o
+ .debug_macro   0x0000d30f       0x28 src/led_toggle.o
+ .debug_macro   0x0000d337      0x265 src/led_toggle.o
+ .debug_macro   0x0000d59c       0xda src/led_toggle.o
+ .debug_macro   0x0000d676       0xbe src/led_toggle.o
+ .debug_macro   0x0000d734      0x3c2 src/led_toggle.o
+ .debug_macro   0x0000daf6      0x2e0 src/led_toggle.o
+ .debug_macro   0x0000ddd6      0x305 src/led_toggle.o
+ .debug_macro   0x0000e0db       0x11 src/led_toggle.o
+ .debug_macro   0x0000e0ec      0x2b8 src/led_toggle.o
+ .debug_macro   0x0000e3a4      0x2b8 src/led_toggle.o
+ .debug_macro   0x0000e65c      0x6b6 src/led_toggle.o
+ .debug_macro   0x0000ed12      0x383 src/led_toggle.o
+ .debug_macro   0x0000f095      0x46a src/led_toggle.o
+ .debug_macro   0x0000f4ff      0x4cc src/led_toggle.o
+ .debug_macro   0x0000f9cb       0x3b src/led_toggle.o
+ .debug_macro   0x0000fa06      0x1f4 src/led_toggle.o
+ .debug_macro   0x0000fbfa       0x2a src/led_toggle.o
+ .debug_macro   0x0000fc24       0x87 src/led_toggle.o
+ .debug_macro   0x0000fcab      0x27d src/led_toggle.o
+ .debug_macro   0x0000ff28      0x29e src/led_toggle.o
+ .debug_macro   0x000101c6       0x58 src/led_toggle.o
+ .debug_macro   0x0001021e       0x35 src/led_toggle.o
+ .debug_macro   0x00010253       0x9c src/led_toggle.o
+ .debug_macro   0x000102ef       0x16 src/led_toggle.o
+ .debug_macro   0x00010305       0x97 src/led_toggle.o
+ .debug_macro   0x0001039c      0x29d src/led_toggle.o
+ .debug_macro   0x00010639       0xef src/led_toggle.o
+ .debug_macro   0x00010728       0x10 src/led_toggle.o
+ .debug_macro   0x00010738       0x52 src/led_toggle.o
+ .debug_macro   0x0001078a       0x16 src/led_toggle.o
+ .debug_macro   0x000107a0       0x43 src/led_toggle.o
+ .debug_macro   0x000107e3      0x180 src/led_toggle.o
+ .debug_macro   0x00010963       0x10 src/led_toggle.o
+ .debug_macro   0x00010973       0x22 src/led_toggle.o
+ .debug_macro   0x00010995       0xbd src/led_toggle.o
+ .debug_macro   0x00010a52       0x16 src/led_toggle.o
+ .debug_macro   0x00010a68      0x196 src/led_toggle.o
+ .debug_macro   0x00010bfe       0x16 src/led_toggle.o
+ .debug_macro   0x00010c14       0x35 src/led_toggle.o
+ .debug_macro   0x00010c49       0x16 src/led_toggle.o
+ .debug_macro   0x00010c5f       0x29 src/led_toggle.o
+ .debug_macro   0x00010c88       0x22 src/led_toggle.o
+ .debug_macro   0x00010caa      0x2e3 src/main.o
+ .debug_macro   0x00010f8d      0x2da src/stm32f3xx_it.o
+ .debug_macro   0x00011267      0x2d6 src/system_stm32f3xx.o
+ .debug_macro   0x0001153d      0x2fd E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_macro   0x0001183a      0x88c E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_macro   0x000120c6      0x298 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_macro   0x0001235e      0x2f4 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+ .debug_macro   0x00012652      0x2d0 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+ .debug_macro   0x00012922      0x310 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
-.debug_str      0x00000000    0x7adda
- .debug_str     0x00000000    0x792e7 src/led_toggle.o
-                              0x79434 (size before relaxing)
- .debug_str     0x000792e7      0x477 src/main.o
+.debug_str      0x00000000    0x7df21
+ .debug_str     0x00000000    0x7c42e src/led_toggle.o
+                              0x7c606 (size before relaxing)
+ .debug_str     0x0007c42e      0x477 src/main.o
                               0x79951 (size before relaxing)
- .debug_str     0x0007975e       0x38 src/stm32f3xx_it.o
+ .debug_str     0x0007c8a5       0x38 src/stm32f3xx_it.o
                               0x7827f (size before relaxing)
- .debug_str     0x00079796       0xca src/system_stm32f3xx.o
+ .debug_str     0x0007c8dd       0xca src/system_stm32f3xx.o
                               0x783aa (size before relaxing)
- .debug_str     0x00079860      0xc09 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_str     0x0007c9a7      0xc09 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
                               0x7a4a8 (size before relaxing)
- .debug_str     0x0007a469      0x31f E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+ .debug_str     0x0007d5b0      0x31f E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
                               0x78a53 (size before relaxing)
- .debug_str     0x0007a788      0x239 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+ .debug_str     0x0007d8cf      0x239 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
                               0x78ac0 (size before relaxing)
- .debug_str     0x0007a9c1      0x419 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+ .debug_str     0x0007db08      0x419 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
                               0x787c2 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -2588,17 +2634,17 @@ OUTPUT(state_machine.elf elf32-littlearm)
  .comment       0x00000000       0x71 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
  .comment       0x00000000       0x71 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
 
-.debug_frame    0x00000000      0xdd4
- .debug_frame   0x00000000       0xc0 src/led_toggle.o
- .debug_frame   0x000000c0       0x78 src/main.o
- .debug_frame   0x00000138       0x2c src/stm32f3xx_it.o
- .debug_frame   0x00000164       0x58 src/system_stm32f3xx.o
- .debug_frame   0x000001bc      0x330 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
- .debug_frame   0x000004ec      0x270 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
- .debug_frame   0x0000075c      0x428 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
- .debug_frame   0x00000b84      0x14c E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
- .debug_frame   0x00000cd0       0x2c e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-init.o)
- .debug_frame   0x00000cfc       0x50 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000d4c       0x20 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-atexit.o)
- .debug_frame   0x00000d6c       0x34 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-fini.o)
- .debug_frame   0x00000da0       0x34 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__atexit.o)
+.debug_frame    0x00000000      0xdf0
+ .debug_frame   0x00000000       0xdc src/led_toggle.o
+ .debug_frame   0x000000dc       0x78 src/main.o
+ .debug_frame   0x00000154       0x2c src/stm32f3xx_it.o
+ .debug_frame   0x00000180       0x58 src/system_stm32f3xx.o
+ .debug_frame   0x000001d8      0x330 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3_discovery.o)
+ .debug_frame   0x00000508      0x270 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal.o)
+ .debug_frame   0x00000778      0x428 E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_cortex.o)
+ .debug_frame   0x00000ba0      0x14c E:\TGM\5Klasse\SYT\Weiser\stm32f3discovery_hal_lib\Debug\libstm32f3discovery_hal_lib.a(stm32f3xx_hal_gpio.o)
+ .debug_frame   0x00000cec       0x2c e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-init.o)
+ .debug_frame   0x00000d18       0x50 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000d68       0x20 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000d88       0x34 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-fini.o)
+ .debug_frame   0x00000dbc       0x34 e:/eclipse c/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.3.0.201507241045/tools/compiler/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__atexit.o)
