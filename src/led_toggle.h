@@ -2,7 +2,7 @@
  * led_toggle.h
  *
  *  Created on: 23.10.2015
- *      Author: Thomas
+ *      Author: Thomas Stedronsky
  */
 
 #ifndef LED_TOGGLE_H_

@@ -2,7 +2,7 @@
  * state_machine.h
  *
  *  Created on: 23.10.2015
- *      Author: Thomas
+ *      Author: Thomas Stedronsky
  */
 
 #ifndef STATE_MACHINE_H_

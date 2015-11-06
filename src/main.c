@@ -1,9 +1,9 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Ac6
+  * @author  Stedronsky Thomas
   * @version V1.0
-  * @date    01-December-2013
+  * @date    06-11-2015
   * @brief   Default main function.
   ******************************************************************************
 */
@@ -13,6 +13,12 @@
 #include "stm32f3_discovery.h"
 			
 #include "led_toggle.h"
+
+/*
+ * main
+ * @param void
+ * @return 0 for Succes
+ */
 int main(void)
 {
 	SystemInit();
